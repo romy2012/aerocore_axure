@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="280px" height="78px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="0.7277452891496372" y1="0" x2="293.64522417153995" y2="0" id="LinearGradient422">
+      <stop id="Stop423" stop-color="#0a99a0" offset="0" />
+      <stop id="Stop424" stop-color="#037389" offset="1" />
+    </linearGradient>
+    <pattern id="BGPattern" patternUnits="userSpaceOnUse" alignment="0 0" imageRepeat="None" />
+    <mask fill="white" id="Clip425">
+      <path d="M 39 78  C 17.16 78  0 60.84  0 39  C 0 17.159999999999997  17.16 0  39 0  L 241 0  C 262.84 0  280 17.159999999999997  280 39  C 280 60.84  262.84 78  241 78  L 39 78  Z " fill-rule="evenodd" />
+    </mask>
+  </defs>
+  <g transform="matrix(1 0 0 1 -177 -734 )">
+    <path d="M 39 78  C 17.16 78  0 60.84  0 39  C 0 17.159999999999997  17.16 0  39 0  L 241 0  C 262.84 0  280 17.159999999999997  280 39  C 280 60.84  262.84 78  241 78  L 39 78  Z " fill-rule="nonzero" fill="url(#LinearGradient422)" stroke="none" transform="matrix(1 0 0 1 177 734 )" class="fill" />
+    <path d="M 39 78  C 17.16 78  0 60.84  0 39  C 0 17.159999999999997  17.16 0  39 0  L 241 0  C 262.84 0  280 17.159999999999997  280 39  C 280 60.84  262.84 78  241 78  L 39 78  Z " stroke-width="4" stroke-dasharray="0" stroke="rgba(255, 255, 255, 0.4980392156862745)" fill="none" transform="matrix(1 0 0 1 177 734 )" class="stroke" mask="url(#Clip425)" />
+  </g>
+</svg>
