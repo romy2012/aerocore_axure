@@ -1,0 +1,68 @@
+:root {
+  /* Page Background */
+  --bg-primary: #111111;
+  
+  /* Text Colors */
+  --text-primary: #C4C8CC;
+  --text-light: #4F5459;
+  --text-white: #FFFFFF;
+  
+  /* Tab Bar */
+  --tab-text-default: #A5A09B;
+  --tab-text-active: #C4C8CC; /* Same as text-primary but defined explicitly for tabs */
+  
+  /* Images */
+  --img-border: rgba(215, 215, 215, 0.55);
+  --img-placeholder: #C5D2DB;
+  --img-radius: 12pt;
+  
+  /* Lists */
+  --list-title: #C4C8CC;
+  --list-category: #4F5459;
+  
+  /* Buttons & Accents */
+  --color-accent: #0A99A0;
+  --gradient-main: linear-gradient(to right, #0A99A0, #037389);
+  --btn-radius: 50%; /* Fully rounded */
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Utilities */
+.btn-primary {
+  background-color: var(--color-accent);
+  color: var(--text-white);
+  border-radius: 9999px; /* Using pill shape for standard buttons if 50% was meant for round */
+  border: none;
+  padding: 12px 24px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.btn-primary:active {
+  opacity: 0.8;
+}
+
+.text-gradient {
+  background: var(--gradient-main);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
