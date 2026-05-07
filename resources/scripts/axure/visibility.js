@@ -811,7 +811,8 @@
             settingChild: true,
             //size for offset
             size: movement,
-            showFlipBack: true
+            showFlipBack: true,
+            cull: state
         });
 
         if(show) $ax.event.raiseSyntheticEvent(id, 'onShow');
