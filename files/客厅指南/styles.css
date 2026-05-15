@@ -3,8 +3,8 @@
   background-color:rgba(0, 0, 0, 1);
   background-image:none;
   position:relative;
-  left:-0px;
-  width:10px;
+  left:-84px;
+  width:183px;
   margin-left:auto;
   margin-right:auto;
   text-align:left;
@@ -16,4 +16,52 @@
 #base {
   position:absolute;
   z-index:0;
+}
+#u211_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:183px;
+  height:39px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 0);
+  border-radius:0px;
+  filter:drop-shadow(none);
+  transition:none;
+  font-family:"Open Sans", sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-size:29px;
+  color:#D7D7D7;
+  text-align:center;
+}
+#u211 {
+  border-width:0px;
+  position:absolute;
+  left:84px;
+  top:68px;
+  width:183px;
+  height:39px;
+  display:flex;
+  transition:none;
+  transform-origin:50% 50%;
+  font-family:"Open Sans", sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-size:29px;
+  color:#D7D7D7;
+  text-align:center;
+}
+#u211 .text {
+  position:absolute;
+  align-self:flex-start;
+  padding:0px 0px 0px 0px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u211_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
 }
