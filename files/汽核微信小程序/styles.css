@@ -1,12 +1,12 @@
 ﻿body {
   margin:0px;
-  background-color:rgba(0, 0, 0, 1);
+  background-color:rgba(0, 0, 0, 0.9921568627450981);
   background-image:none;
-  position:static;
-  left:auto;
-  width:851px;
-  margin-left:0;
-  margin-right:0;
+  position:relative;
+  left:-99px;
+  width:752px;
+  margin-left:auto;
+  margin-right:auto;
   text-align:left;
 }
 .form_sketch {
@@ -25,7 +25,7 @@
   width:752px;
   height:499px;
   display:flex;
-  opacity:0.12;
+  opacity:0.1;
   transition:none;
 }
 #u0 .text {
@@ -54,8 +54,8 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:299px;
-  height:37px;
+  width:481px;
+  height:110px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
   border-radius:0px;
@@ -64,22 +64,28 @@
   font-family:"Arial Normal", "Arial", sans-serif;
   font-weight:400;
   font-style:normal;
+  font-size:25px;
   color:#FFFFFF;
+  text-align:center;
+  line-height:55px;
 }
 #u1 {
   border-width:0px;
   position:absolute;
-  left:330px;
-  top:309px;
-  width:299px;
-  height:37px;
+  left:234px;
+  top:273px;
+  width:481px;
+  height:110px;
   display:flex;
   transition:none;
   transform-origin:50% 50%;
   font-family:"Arial Normal", "Arial", sans-serif;
   font-weight:400;
   font-style:normal;
+  font-size:25px;
   color:#FFFFFF;
+  text-align:center;
+  line-height:55px;
 }
 #u1 .text {
   position:absolute;
